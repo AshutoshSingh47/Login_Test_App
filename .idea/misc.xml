@@ -5,8 +5,9 @@
       <map>
         <entry key="..\:/Users/Ashutosh/AndroidStudioProjects/Login_Test/app/src/main/res/layout/activity_login.xml" value="0.12" />
         <entry key="..\:/Users/Ashutosh/AndroidStudioProjects/Login_Test/app/src/main/res/layout/activity_main.xml" value="0.15" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.10733695652173914" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10733695652173914" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2" />
       </map>
     </option>
   </component>
