@@ -30,13 +30,19 @@ public class LoginActivity extends AppCompatActivity {
         if(sp.getBoolean("logged",false)){
             goToMainActivity();
         }
-        if(sp2.getBoolean("log",false)){
-        loadFragment(new BlankFragment());}
+//        if(sp2.getBoolean("log",false)){
+//        loadFragment(new BlankFragment());}
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 goToMainActivity();
                 sp.edit().putBoolean("logged",true).apply();
+            }
+        });
+        findViewById(R.id.loginBtntest).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                loadFragment(new BlankFragment());
             }
         });
     }
@@ -46,6 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction =fm.beginTransaction();
         fragmentTransaction.replace(R.id.frameLayout,fragment);
         fragmentTransaction.commit();
+        System.out.println("This has been passed ...........................................");
     }
 
     public void goToMainActivity(){
